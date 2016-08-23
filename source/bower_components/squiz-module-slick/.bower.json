@@ -1,0 +1,21 @@
+{
+  "name": "squiz-module-slick",
+  "version": "0.0.2",
+  "description": "Slick slider",
+  "license": "",
+  "dependencies": {
+    "slick.js": "*"
+  },
+  "private": true,
+  "ignore": [],
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "82833d386975f101bd3fb33e0f2302ec5fe4bd84"
+  },
+  "_source": "git@gitlab.squiz.net:boilerplate/squiz-module-slick.git",
+  "_target": "0.0.2",
+  "_originalSource": "git@gitlab.squiz.net:boilerplate/squiz-module-slick.git",
+  "_direct": true
+}

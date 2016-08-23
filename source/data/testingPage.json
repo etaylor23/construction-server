@@ -1,0 +1,85 @@
+{
+      "components": [
+            {
+                  "component": {
+                        "name": "ellis",
+                        "width": 4,
+                        "height": 1,
+                        "col": 4,
+                        "row": 1
+                  }
+            },
+            {
+                  "component": {
+                        "name": "jacky",
+                        "width": 3,
+                        "height": 1,
+                        "col": 1,
+                        "row": 1
+                  }
+            },
+            {
+                  "component": {
+                        "name": "chloe",
+                        "width": 1,
+                        "height": 1,
+                        "col": 4,
+                        "row": 4
+                  }
+            },
+            {
+                  "component": {
+                        "name": "ellis",
+                        "width": 3,
+                        "height": 1,
+                        "col": 1,
+                        "row": 3
+                  }
+            },
+            {
+                  "component": {
+                        "name": "jacky",
+                        "width": 3,
+                        "height": 1,
+                        "col": 1,
+                        "row": 2
+                  }
+            },
+            {
+                  "component": {
+                        "name": "chloe",
+                        "width": 4,
+                        "height": 1,
+                        "col": 4,
+                        "row": 2
+                  }
+            },
+            {
+                  "component": {
+                        "name": "squiz-module-slick",
+                        "width": 1,
+                        "height": 2,
+                        "col": 8,
+                        "row": 1
+                  }
+            },
+            {
+                  "component": {
+                        "name": "squiz-module-slick",
+                        "width": 4,
+                        "height": 1,
+                        "col": 4,
+                        "row": 3
+                  }
+            },
+            {
+                  "component": {
+                        "name": "squiz-module-slick",
+                        "width": 3,
+                        "height": 1,
+                        "col": 1,
+                        "row": 4
+                  }
+            }
+      ]
+}

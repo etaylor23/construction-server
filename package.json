@@ -1,0 +1,52 @@
+{
+  "name": "construction-server-framework",
+  "version": "0.0.1",
+  "description": "A Squiz Boilerplate design cutup",
+  "authors": [
+    "ellistaylor@squiz.net"
+  ],
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "assemble": "0.6.0-beta.5",
+    "async": "^2.0.0-rc.6",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "browser-sync": "^2.9.x",
+    "cacheable-fs": "git://github.com/ironikart/cacheable-fs.git",
+    "chalk": "^1.1.1",
+    "consolidate": "^0.14.1",
+    "del": "^1.2.0",
+    "express": "^4.0.0",
+    "gridster": "^0.5.6",
+    "gulp": "^3.9.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-compile-handlebars": "^0.5.0",
+    "gulp-extname": "^0.2.2",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-squiz-boilerplate": "git+ssh://git@gitlab.squiz.net:boilerplate/gulp-squiz-boilerplate.git",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.2.4",
+    "handlebars": "^4.0.5",
+    "handlebars-helpers": "^0.7.5",
+    "jsonfile": "^2.3.1",
+    "lodash": "^3.9.3",
+    "lodash.defaults": "^3.1.1",
+    "minimist": "^1.1.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-grid-layout": "^0.13.1",
+    "request": "^2.72.0",
+    "require-dir": "^0.3.0",
+    "through2": "^0.6.5"
+  },
+  "engines": {
+    "node": ">=4.x"
+  }
+}

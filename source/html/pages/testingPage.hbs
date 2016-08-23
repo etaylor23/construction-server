@@ -1,0 +1,19 @@
+
+
+{{#testingPage}}
+  {{#sort components "row"}}
+    {{#ifNext this}}
+      {{#each this}}
+        <div class="row">
+        {{#each this}}
+          <div class="column small-12 medium-{{this.component.width}} large-{{this.component.width}} {{#if @last}}end{{/if}}">
+            {{#component}}
+              {{> (lookup . 'name') }}
+            {{/component}}
+          </div>
+        {{/each}}
+        </div>
+      {{/each}}
+    {{/ifNext}}
+  {{/sort}}
+{{/testingPage}}

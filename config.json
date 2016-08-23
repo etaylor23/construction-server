@@ -1,0 +1,9 @@
+{
+    "source":          "source",
+    "dest":            "dist",
+    "construction":    "construction",
+    "tmp":             ".tmp",
+    "file_dest":       "mysource_files",
+    "module_prefix":   "squiz-module-",
+    "initial_version": "4.0.5"
+}

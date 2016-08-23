@@ -1,0 +1,126 @@
+{
+    "ellis-combobox": {
+        "name": "Combobox using selectize",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-combobox.git#0.0.2"
+    },
+    "ellis-tooltip": {
+        "name": "CSS only tooltips",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-tooltip.git#0.0.1"
+    },
+    "ellis-viper": {
+        "name": "Viper build for boilerplate",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-viper.git#0.0.3"
+    },
+    "ellis-legal-list": {
+        "name": "Legal List",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-legal-list.git#0.0.1"
+    },
+    "ellis-timeago": {
+        "name": "jQuery Time ago solution",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-timeago.git#0.0.2"
+    },
+    "ellis-text-underline": {
+        "name": "Text Underline",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-text-underline.git#0.0.2"
+    },
+    "ellis-mediaelement": {
+        "name": "Mediaelement player",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-mediaelement.git#0.0.4"
+    },
+    "ellis-interactive-map": {
+        "name": "Interactive maps",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-interactive-map.git#0.0.4"
+    },
+    "ellis-off-canvas-nav": {
+        "name": "Off Canvas Nav",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-off-canvas-nav.git#0.0.2"
+    },
+    "ellis-breadcrumbs": {
+        "name": "Breadcrumbs",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-breadcrumbs.git#0.0.2"
+    },
+    "ellis-pagination": {
+        "name": "Pagination styling",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-pagination.git#0.0.2"
+    },
+    "ellis-datepicker": {
+        "name": "Date Picker",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-datepicker.git#0.0.2"
+    },
+    "ellis-responsive-tables": {
+        "name": "Responsive Tables",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-responsive-tables.git#0.0.3"
+    },
+    "ellis-parallax": {
+        "name": "Parallax animations",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-parallax.git#0.0.5"
+    },
+    "ellis-slick": {
+        "name": "SlickSslider",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-slick.git#0.0.2"
+    },
+    "ellis-accordion": {
+        "name": "Accordions/Tabs",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-accordion.git#0.0.11"
+    },
+    "ellis-twitter-bootstrap": {
+        "name": "Twitter Bootstrap",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-twitter-bootstrap.git#0.1.4"
+    },
+    "ellis-spritesheet": {
+        "name": "Spritesheet",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-spritesheet.git#0.1.5"
+    },
+    "ellis-matrix-js-api": {
+        "name": "A wrapper for the Matrix JS API",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-matrix-js-api.git#0.0.5"
+    },
+    "ellis-secondary-nav": {
+        "name": "Secondary Nav",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-secondary-nav.git#0.1.0"
+    },
+    "ellis-datatables": {
+        "name": "Data tables",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-datatables.git#0.1.3"
+    },
+    "ellis-header-logo": {
+        "name": "Header logo pattern for boilerplate",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-header-logo.git#0.1.0"
+    },
+    "ellis-navbar": {
+        "name": "Navbar/Mega Menu",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-navbar.git#1.0.1"
+    },
+    "ellis-quick-search": {
+        "name": "Quick Search",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-quick-search.git#0.1.2"
+    },
+    "ellis-matrix-form": {
+        "name": "Matrix custom form",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-matrix-form.git#0.1.3"
+    },
+    "ellis-typeahead": {
+        "name": "Typeahead/Autocomplete",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-typeahead.git#0.1.2"
+    },
+    "ellis-back-to-top": {
+        "name": "Back To Top",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-back-to-top.git#0.1.0"
+    },
+    "ellis-magnific-popup": {
+        "name": "Magnific Popup",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-magnific-popup.git#0.1.1"
+    },
+    "ellis-font-awesome": {
+        "name": "Font Awesome",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-font-awesome.git#0.1.1"
+    },
+    "ellis-skip-links": {
+        "name": "Skip Links",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-skip-links.git#0.1.0"
+    },
+    "ellis-skip-hello-world": {
+        "name": "Skip Links",
+        "repository": "git@gitlab.squiz.net:boilerplate/ellis-skip-links.git#0.1.0"
+    }
+}

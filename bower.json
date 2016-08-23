@@ -1,0 +1,12 @@
+{
+  "name": "construction-server-framework",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "jquery": "*",
+    "qunit": "~1.x",
+    "modernizr": "~2.x",
+    "squiz-module-slick": "git@gitlab.squiz.net:boilerplate/squiz-module-slick.git#0.0.2",
+    "squiz-module-text-underline": "git@gitlab.squiz.net:boilerplate/squiz-module-text-underline.git#0.0.2"
+  }
+}
