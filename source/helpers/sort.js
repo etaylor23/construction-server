@@ -11,6 +11,7 @@ module.exports = function(arr,field, options) {
           return a.component[field]-b.component[field];
         })
         //console.log(sorted)
+        console.log(sorted)
         return options.fn(sorted);
       //return Handlebars.helpers.each(sorted, opts);
 

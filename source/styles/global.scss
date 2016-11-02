@@ -111,6 +111,11 @@ textarea {
     margin: 0.5cm;
 }
 
+.row {
+  margin-top:$standard-vertical-spacing;
+  margin-bottom:$standard-vertical-spacing;
+}
+
 /*
 --------------------
 Content
@@ -120,7 +125,7 @@ Content
 // You can wrap the content styles in a class by un-commenting the following lines
 // to nest the content.scss styles inside .content
 //.content {
-//    @import "content.scss";
+    @import "./source/styles/imports/content.scss";
 //}
 
 
@@ -1398,12 +1403,12 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: #2199e8;
+  color: $base-font-colour;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #1585cf; }
+    color: $base-highlight-colour; }
   a img {
     border: 0; }
 

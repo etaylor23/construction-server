@@ -1,8 +1,0 @@
-{
-  "name": "squiz-module-test",
-  "description": "TEST",
-  "version": "0.0.1",
-  "license": "Squiz",
-  "private": true,
-  "ignore": []
-}

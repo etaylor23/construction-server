@@ -3,6 +3,7 @@ module.exports = {
   output: {
     filename: "./public/js/bundle.js",
   },
+  devtool: "#inline-source-map",
   module: {
     loaders: [
       {

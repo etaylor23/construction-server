@@ -1,0 +1,8 @@
+{
+  "name": "squiz-module-tabs",
+  "description": "Tabs system",
+  "version": "0.0.1",
+  "license": "Squiz",
+  "private": true,
+  "ignore": []
+}

@@ -67,6 +67,9 @@ var constructionServer = {
 
       /* REACT ENDPOINTS */
       this.buildBowerComponents();
+      this.buildExistingComponents();
+      this.buildFragments();
+      this.buildModuleComponents();
 
     },
 
@@ -225,7 +228,6 @@ var constructionServer = {
     buildBowerComponents : function() {
       app.get("/bower-components", function(req, res) {
 
-
         function getDirectories(srcpath, dirOnly) {
           return fs.readdirSync(srcpath).filter(function(file) {
             if(dirOnly) {
@@ -249,6 +251,80 @@ var constructionServer = {
 
         res.setHeader('Content-Type', 'application/json')
         res.end(JSON.stringify(bowerComponents));
+      })
+    },
+
+
+
+
+    buildFragments : function() {
+      app.get("/fragments", function(req, res) {
+
+        function getDirectories(srcpath, dirOnly) {
+          return fs.readdirSync(srcpath).filter(function(file) {
+            if(dirOnly) {
+              return fs.statSync(path.join(srcpath, file)).isDirectory()
+            } else {
+              return fs.statSync(path.join(srcpath, file)).isFile();
+            }
+          });
+        }
+
+        var fragments = getDirectories("./source/html/fragments", false);
+
+
+        console.log(fragments);
+        fragments = fragments.map(function(item) {
+          item = item.split(".hbs")[0];
+          return { "component" : item }
+        })
+
+        console.log(fragments)
+
+
+        res.setHeader('Content-Type', 'application/json')
+        res.end(JSON.stringify(fragments));
+      })
+    },
+
+    buildModuleComponents : function() {
+      app.get("/module-components", function(req, res) {
+
+        function getDirectories(srcpath, dirOnly) {
+          return fs.readdirSync(srcpath).filter(function(file) {
+            if(dirOnly) {
+              return fs.statSync(path.join(srcpath, file)).isDirectory()
+            } else {
+              return fs.statSync(path.join(srcpath, file)).isFile();
+            }
+          });
+        }
+
+        var modules = getDirectories("./source/modules", true);
+
+
+        console.log(modules);
+        modules = modules.map(function(item) {
+          item = item.split(".hbs")[0];
+          return { "component" : item }
+        })
+
+        console.log(modules)
+
+
+        res.setHeader('Content-Type', 'application/json')
+        res.end(JSON.stringify(modules));
+      })
+    },
+
+
+    buildExistingComponents : function() {
+      app.get("/existing-components", function(req, res) {
+        fs.readFile("./source/data/testingPage.json", 'utf8', function(err, data) {
+          if (err) throw err;
+          res.setHeader('Content-Type', 'application/json')
+          res.end(data)
+        });
       })
     }
 }

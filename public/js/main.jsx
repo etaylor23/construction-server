@@ -1,11 +1,13 @@
 // main.js
 import React from 'react';
 import { render } from 'react-dom';
-import BowerComponentsList from "./components/BowerComponents.jsx"
+import ComponentsContainer from "./components/ComponentsContainer.jsx"
+
 
 render(
   <div>
-      <BowerComponentsList />
+      <ComponentsContainer />
+
   </div>,
   document.getElementById('app')
 );

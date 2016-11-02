@@ -6,7 +6,6 @@
     "jquery": "*",
     "qunit": "~1.x",
     "modernizr": "~2.x",
-    "squiz-module-slick": "git@gitlab.squiz.net:boilerplate/squiz-module-slick.git#0.0.2",
-    "squiz-module-text-underline": "git@gitlab.squiz.net:boilerplate/squiz-module-text-underline.git#0.0.2"
+    "squiz-module-accordion": "git@gitlab.squiz.net:boilerplate/squiz-module-accordion.git#0.0.11"
   }
 }

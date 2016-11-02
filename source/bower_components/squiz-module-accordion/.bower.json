@@ -1,0 +1,18 @@
+{
+  "name": "squiz-module-accordion",
+  "version": "0.0.11",
+  "description": "Accordion and Tabs",
+  "license": "",
+  "private": true,
+  "ignore": [],
+  "_release": "0.0.11",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.11",
+    "commit": "d986a9cb22cee1d794ba11f4c3604d0e10845360"
+  },
+  "_source": "git@gitlab.squiz.net:boilerplate/squiz-module-accordion.git",
+  "_target": "0.0.11",
+  "_originalSource": "git@gitlab.squiz.net:boilerplate/squiz-module-accordion.git",
+  "_direct": true
+}
